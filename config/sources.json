@@ -1,0 +1,25 @@
+{
+  "_comment": "Toggle which 2014-era source books are included. 'included' gates ALL content (races, subraces, feats, spells, items, backgrounds). 'racesExtra' additionally allows RACES/SUBRACES (only) from these books, without pulling in their feats/spells/items/backgrounds - use it to add missing player races while keeping the file small. 2024 sources (XPHB, XDMG, XMM, etc.) are always excluded regardless of these lists.",
+  "included": ["PHB", "XGE", "TCE", "VGM", "MTF", "SCAG"],
+  "racesExtra": ["WBtW", "EEPC", "ERLW", "GGR", "MOT", "TTP", "LR", "AI", "SCC", "VRGR", "AAG"],
+  "excluded2024": ["XPHB", "XDMG", "XMM", "XSenGW"],
+  "_notes": {
+    "PHB": "Player's Handbook (2014)",
+    "XGE": "Xanathar's Guide to Everything",
+    "TCE": "Tasha's Cauldron of Everything",
+    "VGM": "Volo's Guide to Monsters",
+    "MTF": "Mordenkainen's Tome of Foes",
+    "SCAG": "Sword Coast Adventurer's Guide",
+    "WBtW": "The Wild Beyond the Witchlight (Fairy, Harengon)",
+    "EEPC": "Elemental Evil Player's Companion (Aarakocra, Genasi, Deep Gnome/Svirfneblin)",
+    "ERLW": "Eberron: Rising from the Last War (Changeling, Kalashtar, Shifter, Warforged - 2014 versions)",
+    "GGR": "Guildmasters' Guide to Ravnica (Centaur, Loxodon, Minotaur, Simic Hybrid, Vedalken)",
+    "MOT": "Mythic Odysseys of Theros (Centaur, Minotaur, Leonin, Satyr)",
+    "TTP": "The Tortle Package (Tortle)",
+    "LR": "Locathah Rising (Locathah)",
+    "AI": "Acquisitions Incorporated (Verdan)",
+    "SCC": "Strixhaven: A Curriculum of Chaos (Owlin)",
+    "VRGR": "Van Richten's Guide to Ravenloft (Dhampir, Hexblood)",
+    "AAG": "Astral Adventurer's Guide (Giff, Hadozee, Autognome, Thri-kreen)"
+  }
+}

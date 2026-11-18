@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>D&D 5e Character Creator (2014)</title>
+<style>/*__CSS__*/</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">D&amp;D 5e Character Creator <span class="muted">(2014 rules)</span></div>
+  <div class="topbar-actions">
+    <label class="lvl">Level
+      <select id="level-select"></select>
+    </label>
+    <button id="btn-new" class="btn">New</button>
+    <button id="btn-save" class="btn">Save JSON</button>
+    <label class="btn" for="file-load">Load JSON</label>
+    <input id="file-load" type="file" accept="application/json" hidden>
+    <button id="btn-short-rest" class="btn" title="Short rest">Short Rest</button>
+    <button id="btn-long-rest" class="btn" title="Long rest">Long Rest</button>
+    <button id="btn-print" class="btn">Print / PDF</button>
+    <button id="btn-theme" class="btn" title="Toggle theme">&#9680;</button>
+  </div>
+</header>
+
+<div class="layout">
+  <!-- Wizard -->
+  <main class="wizard" id="wizard">
+    <nav class="steps" id="steps"></nav>
+    <section class="step-body" id="step-body"></section>
+    <div class="wizard-nav">
+      <button id="btn-prev" class="btn">&larr; Back</button>
+      <div class="autosave-note muted" id="autosave-note"></div>
+      <button id="btn-next" class="btn primary">Next &rarr;</button>
+    </div>
+  </main>
+
+  <!-- Live sheet -->
+  <aside class="sheet" id="sheet"></aside>
+</div>
+
+<script>/*__KEYMAP__*/</script>
+<script>/*__DATA__*/</script>
+<script>/*__APP__*/</script>
+</body>
+</html>
